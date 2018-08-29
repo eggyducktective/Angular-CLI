@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
   {{clickMessage}}`,
   styleUrls: ['./click-me.component.css']
 })
-export class ClickMeComponent implements OnInit {
+export class ClickMeComponent {
 
   clickMessage= '';
 

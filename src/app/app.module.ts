@@ -8,6 +8,7 @@ import { AdminModule } from './admin/admin.module';
 import { BackendApiService } from './backend-api.service';
 import { ClickMeComponent } from './click-me/click-me.component';
 import { FavouriteMoviesComponent } from './favourite-movies/favourite-movies.component';
+import { KeyupComponent } from './keyup/keyup.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { FavouriteMoviesComponent } from './favourite-movies/favourite-movies.co
     SiteHeaderComponent,
     AdminLinkDirective,
     ClickMeComponent,
-    FavouriteMoviesComponent
+    FavouriteMoviesComponent,
+    KeyupComponent
   ],
   imports: [
     BrowserModule,

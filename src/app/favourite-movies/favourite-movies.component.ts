@@ -11,7 +11,7 @@ import { Component, OnInit } from '@angular/core';
   `,
   styleUrls: ['./favourite-movies.component.css']
 })
-export class FavouriteMoviesComponent implements OnInit {
+export class FavouriteMoviesComponent {
 
   movies = ['Thor', 'Avengers', 'The Girl on the Train'];
   addMovie(newMovie: string) {
